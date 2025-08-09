@@ -10,15 +10,17 @@
      overflow-x: hidden !important;
  }
 
- html,
- body {
-     overflow-x: hidden !important;
-     width: 100%;
+ html {
      scroll-behavior: smooth;
-
  }
 
+ html,
+ body {
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden !important;
 
+ }
 
  @keyframes fade-in {
      from {
