@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bastikipathshala ngo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav id="navbar" class="bg-white shadow-md fixed w-full top-0 left-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold">
+                <img class="w-[90px]"
+                    src="https://bastikipathshala.org/wp-content/uploads/2024/02/Basti_Ki_Pathshala-_Official_Logo-removebg-preview.png"
+                    alt="">
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex space-x-8 text-gray-700 font-medium">
+                <li><a href="#home" class="hover:text-orange-400 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-orange-400 transition">About</a></li>
+                <li><a href="#impact" class="hover:text-orange-400 transition">Impact</a></li>
+                <li><a href="#volunteer" class="hover:text-orange-400 transition">Volunteer</a></li>
+                <li><a href="#contact" class="hover:text-orange-400 transition">Contact</a></li>
+            </ul>
+
+           
+            <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+                <i class="ri-menu-3-line"></i>
+            </button>
+        </div>
+
+      
+       
+    </nav>
+
+    <main>
+        <!-- home section -->
+        <section id="home"
+            class="relative min-h-screen flex items-center justify-center overflow-hidden font-[Poppins]">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2689&q=80"
+                    alt="Volunteers helping community" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/40"></div>
+            </div>
+
+            <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in">
+                    Building Hope,<br>
+                    <span class="text-[#FF8A4C]">Changing Lives</span>
+                </h1>
+
+                <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+                    Join us in our mission to create lasting positive change in communities worldwide.
+                    Together, we can make a difference one life at a time.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button
+                        class="px-8 py-4 rounded-full text-white transition-all duration-300 hover:shadow-lg hover:scale-105 transform bg-[#FF8A4C] hover:bg-[#E67A3C]">
+                        Join Us Today
+                    </button>
+                    <button
+                        class="px-8 py-4 rounded-full border-2 border-white text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-105 transform">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <div class="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+                    <div class="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+                </div>
+            </div>
+        </section>
+        <!-- about section  -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-4">
+                <h1 class="text-center text-2xl font-semibold">About Us</h1>
+                <div class="grid md:grid-cols-2 gap-12 items-center mb-20 mt-5">
+                    <div class="order-2 md:order-1" data-aos="fade-right">
+
+                        <p class="text-gray-600 text-3xl text-semibold leading-relaxed mb-6">
+                            Lighting the Path to Change with Basti Ki Pathshala Foundation
+                        </p>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                            At Basti Ki Pathshala Foundation, we are more than just an organization – we are a movement,
+                            driven by the belief that education is the cornerstone of empowerment. Established under the
+                            Indian Societies Act of 1860, we stand as a beacon of hope in underserved communities,
+                            dedicated to breaking the chains of poverty through the transformative power of learning.
+
+                            Join us in our quest to rewrite the narrative of education, one success story at a time.
+                            Together, let’s build a world where every child has the opportunity to dream, to learn, and
+                            to soar. Welcome to Basti Ki Pathshala Foundation – where hope is our currency, and
+                            education is our legacy.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="bg-stone-100 px-4 py-2 rounded-full">
+                                <span class="text-sm font-medium" style="color: #FF8A4C;">10+ Years
+                                    Experience</span>
+                            </div>
+                            <div class="bg-stone-100 px-4 py-2 rounded-full">
+                                <span class="text-sm font-medium" style="color: #FF8A4C;">50+ Countries</span>
+                            </div>
+                            <div class="bg-stone-100 px-4 py-2 rounded-full">
+                                <span class="text-sm font-medium" style="color: #FF8A4C;">1M+ Lives Impacted</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-1 md:order-2 relative" data-aos="fade-left">
+                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                            alt="Team working together" class="rounded-2xl shadow-xl w-full h-96 object-cover" />
+                        <div class="absolute -bottom-6 -right-6 w-24 h-24 rounded-full flex items-center justify-center shadow-lg"
+                            style="background-color: #FF8A4C;">
+                            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Mission & Vision -->
+                <div class="grid md:grid-cols-2 gap-8">
+
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300"
+                        data-aos="zoom-in">
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6"
+                            style="background-color: #FF8A4C;">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.293l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Mission</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            To empower communities worldwide by providing sustainable solutions to poverty,
+                            education gaps, and social inequality through collaborative partnerships and
+                            innovative programs.
+                        </p>
+                    </div>
+
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300"
+                        data-aos="zoom-in-up">
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6"
+                            style="background-color: #FF8A4C;">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                <path fill-rule="evenodd"
+                                    d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Vision</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            A world where every person has access to opportunities that enable them to reach
+                            their full potential and contribute meaningfully to their communities and society.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- impact section  -->
+        <section id="impact" class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Our <span class="text-[#FF8A4C]">Impact</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up">
+                        Through dedicated efforts and community partnerships, we've made significant strides
+                        in creating positive change across multiple sectors.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <div
+                        class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 transform group cursor-pointer">
+
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                            data-aos="zoom-out" style="background-color: #FF8A4C;">
+                            <i class="ri-graduation-cap-fill text-white text-3xl"></i>
+                        </div>
+
+                        <h3
+                            class="text-xl font-bold text-gray-800 mb-4 group-hover:text-orange-500 transition-colors duration-300">
+                            Education
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Providing quality education and learning resources to underserved communities worldwide.
+                        </p>
+
+                        <div class="border-t pt-4">
+                            <div class="text-2xl font-bold mb-1" style="color: #FF8A4C;">
+                                50,000+
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                Students Educated
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 transform group cursor-pointer"
+                        data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
+                            style="background-color: #4C9AFF;">
+                            <i class="ri-health-book-fill text-white text-3xl"></i>
+                        </div>
+
+                        <h3
+                            class="text-xl font-bold text-gray-800 mb-4 group-hover:text-blue-500 transition-colors duration-300">
+                            Health
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Ensuring better healthcare access for rural and underserved communities.
+                        </p>
+
+                        <div class="border-t pt-4">
+                            <div class="text-2xl font-bold mb-1 text-[#4C9AFF]">
+                                20,000+
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                People Served
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:scale-105 transform group cursor-pointer"
+                        data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+                        <div
+                            class="w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300  bg-[#34D399]">
+                            <i class="ri-seedling-fill text-white text-3xl"></i>
+                        </div>
+
+                        <h3
+                            class="text-xl font-bold text-gray-800 mb-4 group-hover:text-green-500 transition-colors duration-300">
+                            Environment
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Promoting eco-friendly initiatives and sustainability awareness worldwide.
+                        </p>
+
+                        <div class="border-t pt-4">
+                            <div class="text-2xl font-bold mb-1" style="color: #34D399;">
+                                5,000+
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                Trees Planted
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-16">
+                    <button
+                        class="px-8 py-4 rounded-full text-white transition-all duration-300 hover:shadow-lg hover:scale-105 transform"
+                        style="background-color: #FF8A4C;" onmouseenter="this.style.backgroundColor='#E67A3C';"
+                        onmouseleave="this.style.backgroundColor='#FF8A4C';">
+                        See More Impact Stories
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="volunteer" class="container mx-auto px-4 max-w-6xl">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Join Our <span style="color: #FF8A4C;">Mission</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                        Ready to make a difference? Join our community of volunteers and help us create
+                        positive change in communities around the world.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <!-- Form -->
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Volunteer Application</h3>
+
+                        <div id="successMessage" class="mb-6 p-4 rounded-lg border hidden"
+                            style="background-color: #FFF7ED; border-color: #FF8A4C; color: #C2410C;">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Thank you! Your application has been submitted successfully.</span>
+                            </div>
+                        </div>
+
+                        <form id="volunteerForm" class="space-y-6" novalidate>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus-ring-orange transition-colors duration-300 focus:outline-none" />
+                                <p class="text-red-600 text-sm mt-1 hidden" id="error-name"></p>
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus-ring-orange transition-colors duration-300 focus:outline-none" />
+                                <p class="text-red-600 text-sm mt-1 hidden" id="error-email"></p>
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus-ring-orange transition-colors duration-300 focus:outline-none" />
+                                <p class="text-red-600 text-sm mt-1 hidden" id="error-phone"></p>
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="message">Why do you want to volunteer?
+                                    *</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Tell us about your motivation and how you'd like to contribute..."
+                                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus-ring-orange transition-colors duration-300 focus:outline-none resize-none"></textarea>
+                                <p class="text-red-600 text-sm mt-1 hidden" id="error-message"></p>
+                            </div>
+
+                            <button type="submit" id="submitBtn"
+                                class="w-full py-4 rounded-lg text-white bg-[#FF8A4C] transition-all duration-300 hover:shadow-lg hover:scale-105 transform">
+                                Submit Application
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Info Section -->
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Why Volunteer With Us?</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0"
+                                        style="background-color: #FF8A4C;"></div>
+                                    <p class="text-gray-600">Make a meaningful impact in communities worldwide</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0"
+                                        style="background-color: #FF8A4C;"></div>
+                                    <p class="text-gray-600">Develop new skills and gain valuable experience</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0"
+                                        style="background-color: #FF8A4C;"></div>
+                                    <p class="text-gray-600">Connect with like-minded individuals</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0"
+                                        style="background-color: #FF8A4C;"></div>
+                                    <p class="text-gray-600">Flexible volunteering opportunities</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="w-2 h-2 rounded-full mt-2 mr-3 flex-shrink-0"
+                                        style="background-color: #FF8A4C;"></div>
+                                    <p class="text-gray-600">Professional development and training</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-stone-50 p-6 rounded-2xl">
+                            <h4 class="font-bold text-gray-800 mb-2">Questions?</h4>
+                            <p class="text-gray-600 mb-4">Contact our volunteer coordinator for more information.
+                            </p>
+                            <div class="space-y-2">
+                                <p class="text-sm text-gray-600">📧 volunteers@hopecom.org</p>
+                                <p class="text-sm text-gray-600">45xxxxx</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact" class="bg-gray-900 text-white py-16">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+
+                    <!-- Organization Info -->
+                    <div class="lg:col-span-1">
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-bold font-poppins">
+                                <img class="w-[80px]"
+                                    src="https://bastikipathshala.org/wp-content/uploads/2024/02/Basti_Ki_Pathshala-_Official_Logo-removebg-preview.png"
+                                    alt="">
+                            </h3>
+                        </div>
+                        <p class="text-gray-300 mb-6 leading-relaxed font-poppins">
+                            Building hope and changing lives through sustainable community development programs
+                            worldwide.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#"
+                                class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-orange-400"
+                                aria-label="Facebook">
+                                <i class="ri-facebook-fill text-lg"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-orange-400"
+                                aria-label="Twitter">
+                                <i class="ri-twitter-fill text-lg"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-orange-400"
+                                aria-label="Instagram">
+                                <i class="ri-instagram-fill text-lg"></i>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-orange-400"
+                                aria-label="LinkedIn">
+                                <i class="ri-linkedin-fill text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-6 font-poppins">Quick Links</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#about"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">About
+                                    Us</a></li>
+                            <li><a href="#impact"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Our
+                                    Impact</a></li>
+                            <li><a href="#volunteer"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Volunteer</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Donate</a>
+                            </li>
+                            <li><a href="#contact"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Programs -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-6 font-poppins">Our Programs</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Education
+                                    Initiative</a></li>
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Healthcare
+                                    Access</a></li>
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Community
+                                    Development</a></li>
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Emergency
+                                    Relief</a></li>
+                            <li><a href="#"
+                                    class="text-gray-300 hover:text-orange-400 transition-colors duration-300 font-poppins">Sustainability
+                                    Projects</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-6 font-poppins">Contact Us</h4>
+                        <div class="space-y-4">
+
+                        </div>
+                        <div class="flex items-center">
+                            <i class="ri-phone-fill text-orange-400 w-5 h-5 mr-3"></i>
+                            <p class="text-gray-300 font-poppins">35XXXXXxxx</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="ri-mail-fill text-orange-400 w-5 h-5 mr-3"></i>
+                            <p class="text-gray-300 font-poppins">info@hopetogether.org</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="border-t border-gray-700 pt-8 px-4">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div>
+                        <p class="text-gray-400 text-sm mb-4 md:mb-0 font-poppins flex items-center">
+                            © 2024 bastikipathshala. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="flex space-x-6">
+                        <a href="#"
+                            class="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-300 font-poppins">Privacy
+                            Policy</a>
+                        <a href="#"
+                            class="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-300 font-poppins">Terms
+                            of Service</a>
+                        <a href="#"
+                            class="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-300 font-poppins">Cookie
+                            Policy</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
